@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background: pink;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 300px;
+    width: 200px;
+}
+
+.gif{
+    height: 200px;
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    color: white;
+}
+button{
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    background: peachpuff;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.btn-1{
+    bottom: 0;
+    left: 20%;
+}
+.btn-2{
+    bottom: 0;
+    right: 20%;
+}
